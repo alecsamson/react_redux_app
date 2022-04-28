@@ -1,5 +1,5 @@
-import { Link } from "react-router-dom"
-import React from "react"
+import React from "react";
+import { Link } from "react-router-dom";
 
 const HomePage = () => (
   <div className="jumbotron">
@@ -9,6 +9,6 @@ const HomePage = () => (
       Learn more
     </Link>
   </div>
-)
+);
 
-export default HomePage
+export default HomePage;

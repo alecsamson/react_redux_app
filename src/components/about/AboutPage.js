@@ -1,4 +1,4 @@
-import React from "react"
+import React from "react";
 
 const AboutPage = () => (
   <div>
@@ -8,6 +8,6 @@ const AboutPage = () => (
       libraries.
     </p>
   </div>
-)
+);
 
-export default AboutPage
+export default AboutPage;
