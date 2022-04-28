@@ -6,6 +6,11 @@ import { bindActionCreators } from "redux";
 import { connect } from "react-redux";
 
 class CoursesPage extends React.Component {
+  componentDidMount() {
+    this.props.actions.loadCourses().catch((error) => {
+      alert("Loading courses failed " + error);
+    });
+  }
   render() {
     return (
       <>
